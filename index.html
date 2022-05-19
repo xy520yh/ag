@@ -66,7 +66,7 @@
       <h2><a href="list.html">更多</a></h2>
       <div class="swiper-container roles_wrap">
         <div class="swiper-wrapper">
-            <div class="swiper-slide slide1 swiper-no-swiping" >
+            <div class="swiper-slide slide1 " >
               <div class="hot_game_center">
                   <div class="role"><img src="images/index_hot_game1.jpg"></div>
                   <div class="hot_text_bg"> 
@@ -79,7 +79,7 @@
                   </div>
               </div>
             </div>
-            <div class="swiper-slide slide2 swiper-no-swiping">
+            <div class="swiper-slide slide2 ">
               <div class="hot_game_center">
                   <div class="role"><img src="images/index_hot_game2.jpg"></div>
                   <div class="hot_text_bg"> 
@@ -92,7 +92,7 @@
                   </div>
               </div>
             </div>
-            <div class="swiper-slide slide1 swiper-no-swiping">
+            <div class="swiper-slide slide1">
               <div class="hot_game_center">
                   <div class="role"><img src="images/index_hot_game1.jpg"></div>
                   <div class="hot_text_bg"> 
@@ -212,7 +212,7 @@
   <!--第四屏-->
   <div class="part4 mr_auto">
     <div class="info_text">
-      <P>Ark&nbsp;&nbsp;Games 是昆仑万维旗下的UGC游戏平台，全球发行区域超过150个国家和地区。</P>
+      <P>ARK&nbsp;&nbsp;GAMES 是昆仑万维旗下的UGC游戏平台，全球发行区域超过150个国家和地区。</P>
       <P class="mr_t"> 在涵盖MMO、ARPG等移动游戏品类的同时，尝试孵化二次元、SLG等新品类，并与公司其他平台类业务进行协同发展。</P>
     </div>
     <div class="join_us">
@@ -253,12 +253,12 @@
   });
  //首页热门游戏
 
-
+//  noSwiping: true,
 
   (function(){
 		var animalswiper = new Swiper('.roles_wrap', {
 			autoplay:3000, effect : 'fade', grabCursor : false,
-			loop : true,noSwiping: true,
+			loop : true,
 			on: {
         slideChangeTransitionStart:function(swiper){
             $(".game_roles .swiper_dock_list li img").removeClass('on');

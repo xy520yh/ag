@@ -47,7 +47,7 @@ body{position:relative;-webkit-text-size-adjust:none;color:#fff;font-size:24px;}
 .nav_box.active{display: block;}
 .nav_box div a{color:#fff;}
 .nav_btn div.active a{color:#ea4840}
-.nav_btn div a{color:#7f8c9d;font-size: 48px;}
+.nav_btn div a{color:#adb2b9;font-size: 48px;}
 .nav_line{width:100%;height:1px; background: #31343c;}
 .nav_link{display: flex;  align-items:center;flex-direction: column; height: 100%;  justify-content:space-between;}
 .nav_link .link{cursor:pointer;font-size:48px;text-align:center;width:100%; -webkit-animation-duration: 1.0s;  animation-duration: 1.0s;  -webkit-animation-fill-mode: both; animation-fill-mode: both; -webkit-animation-name: fadeInUp; animation-name: fadeInUp;}
@@ -71,7 +71,7 @@ body{position:relative;-webkit-text-size-adjust:none;color:#fff;font-size:24px;}
 /*第一屏幕*/
 .part1{width:750px;height:900px;background-image:url(../images/index_bg1.jpg);background-repeat:no-repeat;}
 /*第二屏幕*/
-.part2{width:750px;height:1003px;background-image:url(../images/index_bg2.jpg);background-repeat:no-repeat; position: relative;}
+.part2{width:750px;height:1003px;background-image:url(../images/index_bg2.jpg);background-repeat:no-repeat; position: relative;margin-top: -1px;}
 .game_roles{width:750px; height:800px; position:relative; }
 .game_roles .swiper-slide{width:640px; height:804px; position:relative;}
 .game_roles h2{width:222px;height:60px;border:1px solid #7b8291;text-align: center; line-height: 60px;color:#7b8291;font-size:28px; position: absolute;right:20px;top:103px;}
@@ -80,8 +80,8 @@ body{position:relative;-webkit-text-size-adjust:none;color:#fff;font-size:24px;}
 .hot_text_bg{width:700px;height:95px;display:flex;justify-content:space-between;padding:65px 35px 0px 35px;opacity: 0; align-items:center;}
 .roles_wrap .swiper-slide-active .hot_text_bg{opacity: 1;}
 .hot_text_bg p{font-size:38px;color:#d3d9e5;width:260px;}
-.btn_holder{width:266px;height:80px;border:2px solid #ea4840; text-align: center; line-height: 80px; color: #ea4840;}
-.btn_holder span a{color:#ea4840;}
+.btn_holder{width:266px;height:80px;border:1px solid #ea4840;display: flex; align-items: center; justify-content: center; color: #ea4840;}
+.btn_holder span a{color:#ea4840;font-weight: bold;font-size: 30px;}
 .game_roles .swiper_dock_list{ width:609px; height:124px;position:relative;background:url(../images/small_btn_03.png) no-repeat; z-index:10; margin:0 auto;}
 .game_roles .swiper_dock_list li:nth-child(1),.game_roles .swiper_dock_list li:nth-child(2),.game_roles .swiper_dock_list li:nth-child(3),.game_roles .swiper_dock_list li:nth-child(4){width:124px; height:124px;}
 .game_roles .swiper_dock_list li:nth-child(1){position: absolute; top:0px; left:0px;}
@@ -92,9 +92,9 @@ body{position:relative;-webkit-text-size-adjust:none;color:#fff;font-size:24px;}
 .game_roles .swiper_dock_list li .icon.on{display:block;}
 
 /*第三屏幕*/
-.part3{width:750px;height:935px;background-image:url(../images/index_bg3.jpg);background-repeat:no-repeat; position: relative;padding-top: 180px;}
+.part3{width:750px;height:935px;background-image:url(../images/index_bg3.jpg);background-repeat:no-repeat; position: relative;padding-top: 180px;margin-top: -1px;}
 .part_news_rigt{width:695px;height:800px;position:relative;overflow:hidden;margin-left:31px;}
-.part3 h2{width:222px;height:60px;border:1px solid #7b8291;text-align: center; line-height: 60px;color:#7b8291;font-size:28px; position: absolute;right:20px;top:48px;}
+.part3 h2{width:222px;height:60px;border:1px solid #7b8291;text-align: center; line-height: 60px;color:#7b8291;font-size:28px; position: absolute;right:20px;top:44px;}
 .part3 h2 a{color:#7b8291;font-size:28px;}
 
 .news_list .item{text-align:left;width:695px;display:inline-block;height:800px;padding-bottom:20px;border-radius:2px;overflow:hidden;transition:all .3s ease-in-out;position:relative;}
@@ -123,7 +123,7 @@ body{position:relative;-webkit-text-size-adjust:none;color:#fff;font-size:24px;}
 .item_text::before{content:"";position:absolute;right:0px;top:0px;width:161px;border-top:3px solid #f5443f;-webkit-transition:-webkit-transform .3s cubic-bezier(0.215,0.61,0.355,1);transition:-webkit-transform .3s cubic-bezier(0.215,0.61,0.355,1);-o-transition:transform .3s cubic-bezier(0.215,0.61,0.355,1);transition:transform .3s cubic-bezier(0.215,0.61,0.355,1);transition:transform .3s cubic-bezier(0.215,0.61,0.355,1),-webkit-transform .3s cubic-bezier(0.215,0.61,0.355,1);-webkit-transform:scaleX(0);-ms-transform:scaleX(0);transform:scaleX(0);-webkit-transform-origin:right center;-ms-transform-origin:right center;transform-origin:right center}
 .item a:hover .item_text::before{-webkit-transform:scaleX(1);-ms-transform:scaleX(1);transform:scaleX(1)}
 /*第四屏幕*/
-.part4{width:750px;height:1380px;background-image:url(../images/index_bg4.jpg);background-repeat:no-repeat; padding-top:770px;}
+.part4{width:750px;height:1380px;background-image:url(../images/index_bg4.jpg);background-repeat:no-repeat; padding-top:770px;margin-top: -1px;}
 .info_text{height:365px; margin-bottom: 65px;}
 .info_text p{font-size:28px;color:#b2bbca;line-height:50px;width:600px; margin:0 auto; margin-bottom: 60px;}
 .join_us {width:710px;height:100px; margin:0 auto; background: #be342d;text-align:center;}
@@ -156,7 +156,7 @@ a.mail{color:#7f8592;font-size:24px;}
 .list_item_bg{background-image:url(../images/list_bg.jpg);width:710px;height:381px;padding:45px;}
 .list_item_bg h2{font-size:28px;color:#c3cbda;height:38px;margin-bottom:45px;overflow: hidden;white-space: nowrap; text-overflow: ellipsis;}
 .list_item_bg p{font-size:24px;color:#72798c;overflow:hidden;line-height:46px;}
- h3.common_line1{height:1px;width:100%;background:#3c4661;margin-bottom:30px;margin-top:40px;}
+ h3.common_line1{height:2px;width:100%;background:#35405d;margin-bottom:30px;margin-top:40px;}
 .list_item_bg h5 b{float:right;height:30px;display:inline-block;color:#8a8d99;font-size:20px;display:flex;align-items:center;}
 .list_item_bg h5 b i{width:30px;height:1px;background:#8a8d99;display:inline-block;margin-right:7px;}
 .list_item_bg h5 span{color:#757b8e;font-size:20px;float:right;}
@@ -179,7 +179,7 @@ a.mail{color:#7f8592;font-size:24px;}
 /*联系我们 */
 .contact_banner{width:750px;position:relative;overflow:hidden;height:417px;background-image:url(../images/contact_banner.jpg);margin:0 auto;}
 .tel{position:absolute;left:316px;top:144px;}
-.tel h3{color:#e6c6c6;font-size:20px;font-weight:normal;margin-bottom:46px;}
+.tel h3{color:#e6c6c6;font-size:20px;font-weight:normal;margin-bottom:26px; line-height: 40px;}
 .contact_wrap{width:750px;position:relative;overflow:hidden;height:2191px;padding-top:80px;background-image:url(../images/contact_bg.jpg);margin:0 auto;}
 .contact_list h5{font-weight:bold;font-size:26px;margin-bottom:15px}
 .contact_list h5 img{width:334px;height:65px;}
