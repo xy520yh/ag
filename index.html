@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>首页</title>
+<meta name="keywords" content="">
+<meta name="description" content=" ">
+<!--main css-->
+<link rel="stylesheet" href="css/swiper-bundle.min.css">
+<link rel="stylesheet" href="css/main.css">
+<!--js-->
+<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+<script>
+    var phoneWidth =  parseInt(window.screen.width);
+    var phoneScale = phoneWidth/750;
+    var ua = navigator.userAgent;
+    if (/Android (\d+\.\d+)/.test(ua)){
+        var version = parseFloat(RegExp.$1);
+        if(version>2.3){
+            document.write('<meta name="viewport" content="width=750, minimum-scale = '+phoneScale+', maximum-scale = '+phoneScale+', target-densitydpi=device-dpi">');
+        }else{
+            document.write('<meta name="viewport" content="width=750, target-densitydpi=device-dpi">');
+        }
+    } else {
+        document.write('<meta name="viewport" content="width=750, user-scalable=no, target-densitydpi=device-dpi">');
+    }
+</script>
+</head>
+<body>
+<div id="wrapper">  
+  <!--菜单弹窗--> 
+  <div class="nav_box">
+    <div class="nav_box_main">
+        <div class="nav_top">
+            <div class="closed"><img src="images/tc_close.png"></div>
+        </div> 
+        <div class="nav_btn">
+            <div class="nav_link">
+                <div class="link01  active link"><a href="https://game.gameark.cn/" target="_blank">游戏列表</a></div>
+                <div  class="nav_line"></div>
+                <div class="link02 link"><a href="list.html">新闻资讯</a></div>
+                <div  class="nav_line"></div>
+                <div class="link03 link"><a href="about.html">关于我们</a></div>
+                <div  class="nav_line"></div>
+                <div class="link04 link"><a href="join.html">人才招聘</a></div>
+                <div  class="nav_line"></div>
+                <div class="link05 link"><a href="contact.html">联络我们</a></div>
+            </div>
+        
+        </div>
+        
+    </div>
+  </div>
+  <!--菜单-->
+  <div class="common_top">
+      <div class="common_index"><a href="index.html"><img src="images/top_logo.png"></a></div>
+      <div class="common_nav_main"><img src="images/top_menu.png"></div>
+  </div>
+  <!--第一屏-->
+ <div class="part1 mr_auto"> </div>
+  <!--第二屏-->
+  <div class="part2 mr_auto">
+    <div class="game_roles">
+      <h2><a href="list.html">更多</a></h2>
+      <div class="swiper-container roles_wrap">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide slide1 swiper-no-swiping" >
+              <div class="hot_game_center">
+                  <div class="role"><img src="images/index_hot_game1.jpg"></div>
+                  <div class="hot_text_bg"> 
+                    <div class="hot_text_left">
+                      <P>境·界 魂之觉醒</P>
+                    </div>
+                    <div class="btn_holder">
+                        <span><a href="#">进入官网</a></span>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class="swiper-slide slide2 swiper-no-swiping">
+              <div class="hot_game_center">
+                  <div class="role"><img src="images/index_hot_game2.jpg"></div>
+                  <div class="hot_text_bg"> 
+                    <div class="hot_text_left">
+                      <P>部落冲突</P>
+                    </div>
+                    <div class="btn_holder">
+                      <span><a href="#">进入官网</a></span>
+                  </div>
+                  </div>
+              </div>
+            </div>
+            <div class="swiper-slide slide1 swiper-no-swiping">
+              <div class="hot_game_center">
+                  <div class="role"><img src="images/index_hot_game1.jpg"></div>
+                  <div class="hot_text_bg"> 
+                    <div class="hot_text_left">
+                      <P>皇室战争</P>
+                    </div>
+                    <div class="btn_holder">
+                      <span><a href="#">进入官网</a></span>
+                  </div>
+                  </div>
+              </div>
+            </div>
+            <div class="swiper-slide slide2">
+              <div class="hot_game_center">
+                  <div class="role"><img src="images/index_hot_game2.jpg"></div>
+                  <div class="hot_text_bg"> 
+                    <div class="hot_text_left">
+                      <P>海岛奇兵</P>
+                    </div>
+                    <div class="btn_holder">
+                      <span><a href="#">进入官网</a></span>
+                    </div>
+                  </div>
+              </div>
+            </div>  
+        </div>
+        <!-- <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div> -->
+      </div>
+      <div class="swiper_list">
+        <ul class="swiper_dock_list">
+            <li> 
+                <span><img class="icon on " src="images/small_hover_01.png"/></span>
+            </li>
+            <li>
+                <span><img class="icon" src="images/small_hover_02.png"/></span>
+            </li>
+            <li>
+                <span><img class="icon" src="images/small_hover_03.png"/></span>
+            </li>
+            <li>
+                <span><img class="icon" src="images/small_hover_04.png"/></span>
+            </li>
+
+
+        </ul>
+      </div>
+    </div>
+  </div>
+   <!--第三屏-->
+  <div class="part3 mr_auto">
+    <h2><a href="list.html">更多</a></h2>
+    <div class="part_news_rigt">
+      <div class="swiper-container mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"> 
+            <div class="news_list">
+              <div class="item">
+                <a href="#" target="_blank" class="link">
+                  <div class="news_img"><img src="images/index_news_img3.jpg" alt="" class="img"></div>
+                  <div class="item_text">
+                    <p>昆仑万维郝冬梅：创意，是海外游戏获量成功的最核心因素！</p>
+                    <h3 class="common_line1"></h3>
+                    <h5><b>查看详情</b><span>发布时间：2020-1-8</span></h5>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide"> 
+            <div class="news_list">
+              <div class="item">
+                <a href="#" target="_blank" class="link">
+                  <div class="news_img"><img src="images/index_news_img2.jpg" alt="" class="img"></div>
+                  <div class="item_text">
+                    <p>昆仑万维Ark Games签署《网络游戏行业》防沉迷自律公约</p>
+                    <h3 class="common_line1"></h3>
+                    <h5><b>查看详情</b><span>发布时间:2017.08</span></h5>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide"> 
+            <div class="news_list">
+              <div class="item">
+                <a href="#" target="_blank" class="link">
+                  <div class="news_img"><img src="images/index_news_img1.jpg" alt="" class="img"></div>
+                  <div class="item_text">
+                    <p>昆仑万维Ark Games获选2021年度优秀海外游戏发行商TOP10</p>
+                    <h3 class="common_line1"></h3>
+                    <h5><b>查看详情</b><span>发布时间:2017.08</span></h5>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide"> 
+            <div class="news_list">
+              <div class="item">
+                <a href="#" target="_blank" class="link">
+                  <div class="news_img"><img src="images/index_news_img1.jpg" alt="" class="img"></div>
+                  <div class="item_text">
+                    <p>昆仑万维Ark Games获选2021年度优秀海外游戏发行商TOP10</p>
+                    <h3 class="common_line1"></h3>
+                    <h5><b>查看详情</b><span>发布时间:2017.08</span></h5>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </div>
+  <!--第四屏-->
+  <div class="part4 mr_auto">
+    <div class="info_text">
+      <P>Ark&nbsp;&nbsp;Games 是昆仑万维旗下的UGC游戏平台，全球发行区域超过150个国家和地区。</P>
+      <P class="mr_t"> 在涵盖MMO、ARPG等移动游戏品类的同时，尝试孵化二次元、SLG等新品类，并与公司其他平台类业务进行协同发展。</P>
+    </div>
+    <div class="join_us">
+      <a href="#">加入我们</a>
+    </div>
+  </div>
+   <!--底部公用 --> 
+    <div class="footer">
+      <div class="footer_main">
+          <ul>
+          <li> <a href="https://item.arkgames.com/group_upload/report_p.html" target="_blank">违法举报</a></li><li class="footer_border_line"></li>
+          <li><a href="https://www.kunlun.com/images/klwwzz.png" target="_blank">营业执照 </a></li><li class="footer_border_line"></li>
+          <li><a href="contact.html">联系我们</a></li>
+          </ul>
+          <h3>违法举报：<a href="mailto:tousu@kunlun.com" class="mail">tousu@kunlun.com</a></h3>
+          <P>ARK GAMES ICP证 京B2-20210321 京ICP备2020044708号-1 </P>
+          <P>京公网安备11010102004470号 （署）网出证（京）字第205号</P>
+      </div>
+    </div>
+</div>  
+<!--js-->
+<script type="text/javascript" src="js/swiper-bundle.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script>
+  /*首页新闻资讯*/
+  var swiper = new Swiper(".mySwiper", {
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    on: {
+        resize: function(){
+            setTimeout(() => {
+                swiper .update()
+                }, 300)   //延时器很重要，不加可能会出错
+        }
+      }
+  });
+ //首页热门游戏
+
+
+
+  (function(){
+		var animalswiper = new Swiper('.roles_wrap', {
+			autoplay:3000, effect : 'fade', grabCursor : false,
+			loop : true,noSwiping: true,
+			on: {
+        slideChangeTransitionStart:function(swiper){
+            $(".game_roles .swiper_dock_list li img").removeClass('on');
+            $(".game_roles .swiper_dock_list li img").eq((swiper.activeIndex-1)%$(".game_roles .swiper_dock_list li").length).addClass('on');
+          }
+     }
+		});
+		$(".game_roles .swiper_dock_list li").click(function(){
+			var index = $(this).index()+1;
+			animalswiper.slideTo(index);
+			$(".game_roles .swiper_dock_list li img").removeClass('on');
+			$(".game_roles .swiper_dock_list li img").eq(index-1).addClass('on');
+		});	
+	})();
+</script>
+</body>
+</html>

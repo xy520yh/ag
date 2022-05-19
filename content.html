@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>联系我们</title>
+<meta name="keywords" content="">
+<meta name="description" content=" ">
+<!--主要样式-->
+<link rel="stylesheet" href="css/main.css">
+<!--mainjs-->
+<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+<script>
+    var phoneWidth =  parseInt(window.screen.width);
+    var phoneScale = phoneWidth/750;
+    var ua = navigator.userAgent;
+    if (/Android (\d+\.\d+)/.test(ua)){
+        var version = parseFloat(RegExp.$1);
+        if(version>2.3){
+            document.write('<meta name="viewport" content="width=750, minimum-scale = '+phoneScale+', maximum-scale = '+phoneScale+', target-densitydpi=device-dpi">');
+        }else{
+            document.write('<meta name="viewport" content="width=750, target-densitydpi=device-dpi">');
+        }
+    } else {
+        document.write('<meta name="viewport" content="width=750, user-scalable=no, target-densitydpi=device-dpi">');
+    }
+</script>
+</head>
+<body>
+   <!--菜单弹窗--> 
+   <div class="nav_box">
+    <div class="nav_box_main">
+        <div class="nav_top">
+            <div class="closed"><img src="images/tc_close.png"></div>
+        </div> 
+        <div class="nav_btn">
+            <div class="nav_link">
+                <div class="link01  active link"><a href="https://game.gameark.cn/" target="_blank">游戏列表</a></div>
+                <div  class="nav_line"></div>
+                <div class="link02 link"><a href="list.html">新闻资讯</a></div>
+                <div  class="nav_line"></div>
+                <div class="link03 link"><a href="about.html">关于我们</a></div>
+                <div  class="nav_line"></div>
+                <div class="link04 link"><a href="join.html">人才招聘</a></div>
+                <div  class="nav_line"></div>
+                <div class="link05 link"><a href="contact.html">联络我们</a></div>
+            </div>
+        
+        </div>
+        
+    </div>
+  </div>
+    <!--菜单-->
+    <div class="common_top">
+        <div class="common_index"><a href="index.html"><img src="images/top_index.png"></a></div>
+        <div class="common_logo"><a href="index.html"><img src="images/top_logo.png"></a></div>
+        <div class="common_nav_main"><img src="images/top_menu.png"></div>
+    </div>
+  <!--公共导航-->
+  <div class="wrap_content">
+      <div class="content_right">
+        <div class="content_right_main">
+            <div class="content_wrap">
+              <div class="content_main">
+                  <h4>昆仑万维Ark Games获选2021年度优秀海外游戏发行商TOP10</h4>
+                  <h5 class="liebiao"><span>发布时间：2020-1-8</span></h5>
+                  <p class="border_line1"></p>
+                    <p>上证报中国证券网讯 2月28日午间，昆仑万维披露业绩快报。2021年，公司实现营业总收入48.5亿元，归属于上市公司股东的净利润17.7亿元，扣除非经常性损益后的归属于上市公司股东的净利润14.2亿元。昆仑万维是中国领先的互联网出海头部企业。</p>
+                    <p class="text_img"><img src="images/content_img.jpg" /></p>
+                    <p>       从收入结构看，报告期内，对照相同口径的存续业务海外业务收入同比增长超过40%，占比进一步提升。海外业务中，Star X保持强劲增长，Opera从疫情中强势复苏，收入环比连续增长，取得历史最好业绩。其他业务也保持较高增速，整体呈现出健康向上的发展态势。</p>
+            </div>
+              <!-- <div class="fan_index">
+                <a href="#"><button class="btn-1">返回首页</button></a>
+              </div>                        -->
+        </div>
+        </div>
+      </div>	
+    <div class="content_left_bottom">
+      <div class="content_wrap" >
+      <p class="next">下一篇<br/></p>
+      <ul>
+        <li class="clearfix">
+          <a href="#" target="_blank">
+            <img src="images/content_next_img.jpg">
+            <div class="info">
+              <h1>昆仑万维Ark Games签署《网络游戏行业》防沉迷自律公约</h1>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </div>
+  <!--底部公用 --> 
+  <div class="footer">
+    <div class="footer_main">
+        <ul>
+        <li> <a href="https://item.arkgames.com/group_upload/report_p.html" target="_blank">违法举报</a></li><li class="footer_border_line"></li>
+        <li><a href="https://www.kunlun.com/images/klwwzz.png" target="_blank">营业执照 </a></li><li class="footer_border_line"></li>
+        <li><a href="contact.html">联系我们</a></li>
+        </ul>
+        <h3>违法举报：<a href="mailto:tousu@kunlun.com" class="mail">tousu@kunlun.com</a></h3>
+        <P>ARK GAMES ICP证 京B2-20210321 京ICP备2020044708号-1 </P>
+        <P>京公网安备11010102004470号 （署）网出证（京）字第205号</P>
+    </div>
+  </div>
+<script type="text/javascript" src="js/common.js"></script>
+</body>
+</html>
