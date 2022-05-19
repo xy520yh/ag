@@ -154,7 +154,7 @@ a.mail{color:#7f8592;font-size:24px;}
 .nav_list li.active a{color: #ffadad;}
 .list_item{width:710px;height:381px;margin:0 auto;margin-top:65px;}
 .list_item_bg{background-image:url(../images/list_bg.jpg);width:710px;height:381px;padding:45px;}
-.list_item_bg h2{font-size:28px;color:#c3cbda;height:38px;overflow:hidden;margin-bottom:45px;overflow: hidden;white-space: nowrap; text-overflow: ellipsis;}
+.list_item_bg h2{font-size:28px;color:#c3cbda;height:38px;margin-bottom:45px;overflow: hidden;white-space: nowrap; text-overflow: ellipsis;}
 .list_item_bg p{font-size:24px;color:#72798c;overflow:hidden;line-height:46px;}
  h3.common_line1{height:1px;width:100%;background:#3c4661;margin-bottom:30px;margin-top:40px;}
 .list_item_bg h5 b{float:right;height:30px;display:inline-block;color:#8a8d99;font-size:20px;display:flex;align-items:center;}
