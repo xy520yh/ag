@@ -83,7 +83,7 @@ body{position:relative;-webkit-text-size-adjust:none;color:#fff;font-size:24px;}
 .hot_text_bg p{font-size:38px;color:#d3d9e5;width:260px;}
 .btn_holder{width:266px;height:80px;border:1px solid #ea4840;display: flex; align-items: center; justify-content: center; color: #ea4840;}
 .btn_holder span a{color:#ea4840;font-weight: bold;font-size: 30px;}
-.game_roles .swiper_dock_list{ width:609px; height:124px;position:relative;background:url(../images/small_btn_03.png) no-repeat; z-index:10; margin:0 auto;}
+.game_roles .swiper_dock_list{ width:609px; height:124px;position:relative;background:url(../images/small_btn_03.png) no-repeat; z-index:10; margin:0 auto; margin-top: -1px;}
 .game_roles .swiper_dock_list li:nth-child(1),.game_roles .swiper_dock_list li:nth-child(2),.game_roles .swiper_dock_list li:nth-child(3),.game_roles .swiper_dock_list li:nth-child(4){width:124px; height:124px;}
 .game_roles .swiper_dock_list li:nth-child(1){position: absolute; top:0px; left:0px;}
 .game_roles .swiper_dock_list li:nth-child(2){position: absolute; top:0px; left:160px;}
