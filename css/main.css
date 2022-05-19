@@ -130,7 +130,7 @@ body{position:relative;-webkit-text-size-adjust:none;color:#fff;font-size:24px;}
 .join_us a {color:#fad5d5;height:100px;font-size:40px;line-height:100px;}
 .mr_t{margin-top:30px;}
 /*公共底部*/
-.footer{width:750px;margin:0 auto;background:#1f2229;height:336px;padding-top:70px;padding-bottom: 70px;}
+.footer{width:750px;margin:0 auto;background:#1f2229;height:336px;padding-top:70px;padding-bottom: 70px;margin-top: -1px;}
 .footer_main{width:580px; margin:0 auto; text-align: center;}
 .footer_main ul{display: flex; justify-content: center; color: #7f8592; align-items: center;}
 .footer_main ul li.footer_border_line{width:1px;background: #7f8592;margin-right:25px;margin-left: 25px;height:23px; }
@@ -154,7 +154,7 @@ a.mail{color:#7f8592;font-size:24px;}
 .nav_list li.active a{color: #ffadad;}
 .list_item{width:710px;height:381px;margin:0 auto;margin-top:65px;}
 .list_item_bg{background-image:url(../images/list_bg.jpg);width:710px;height:381px;padding:45px;}
-.list_item_bg h2{font-size:28px;color:#c3cbda;height:38px;overflow:hidden;margin-bottom:45px;}
+.list_item_bg h2{font-size:28px;color:#c3cbda;height:38px;overflow:hidden;margin-bottom:45px;overflow: hidden;white-space: nowrap; text-overflow: ellipsis;}
 .list_item_bg p{font-size:24px;color:#72798c;overflow:hidden;line-height:46px;}
  h3.common_line1{height:1px;width:100%;background:#3c4661;margin-bottom:30px;margin-top:40px;}
 .list_item_bg h5 b{float:right;height:30px;display:inline-block;color:#8a8d99;font-size:20px;display:flex;align-items:center;}
@@ -172,7 +172,7 @@ a.mail{color:#7f8592;font-size:24px;}
 #box1 .hid{display:none}
 #box1 .show{display:block}
 .list_bottom div:first-child{margin-top:0px;}
-.download_more{width:750px;background:url(../images/list_bottom_bg.jpg) no-repeat;height:233px;margin:0 auto; display: flex; align-items: center;}
+.download_more{width:750px;background:url(../images/list_bottom_bg.jpg) no-repeat;height:233px;margin:0 auto; display: flex; align-items: center;margin-top: -1px;}
 .pageNum{width:710px;margin:0 auto;background-color:#c42e2c;cursor:pointer;color:#d4d4d4;height:96px;font-size:40px;text-align:center;display:flex;justify-content:center;align-items:center;cursor:pointer;}
 .pageNum span{cursor:pointer;float:left;}
 
@@ -194,11 +194,11 @@ label{display: block;width:120px; text-align: justify; height: 35px;text-align-l
 label:after {content: '';width: 100%;display: inline-block;}
 .contact_list p span.contact_text{width:500px;}
 /*招聘我们页面*/
-.join_wrap{width:750px;margin:0 auto;position:relative;overflow:hidden;background:url(../images/join_bg.jpg) center top;background-size:cover}
-.Site {display: flex;  min-height: 100vh;flex-direction: column;}
-.Site-content {  flex: 1;}
-.contact_wrap_container{width:750px;margin:0 auto;position:relative;height:calc(100vh - 252px)}
-.contact_btn{ position: absolute; left: 20px;bottom:5%;}
+.join_wrap{width:750px;margin:0 auto;position:relative;overflow:hidden;background:url(../images/join_bg.jpg) center top;height:1218px;}
+/* .Site {display: flex;  min-height: 100vh;flex-direction: column;}
+.Site-content {  flex: 1;} */
+.contact_wrap_container{width:750px;margin:0 auto;position:relative;height:1218px;}
+.contact_btn{ position: absolute; left: 20px;top:918px;}
 .contact_btn div{margin-bottom: 30px;}
 
 /*联系我们页面*/
@@ -235,7 +235,7 @@ to{opacity:1;transform:none;}
 /*内容页面*/
 
 .list_right_main{width:750px;background:url(../images/list_top_bg.jpg) center top no-repeat;min-height:324px;_height:324px;margin:0 auto; padding-top: 50px;}
-.wrap_content{width:750px;margin:0 auto;background:url(../images/content_bottom.jpg) no-repeat center bottom;padding-bottom:60px;position:relative;overflow:hidden;z-index:2;}
+.wrap_content{width:750px;margin:0 auto;background:url(../images/content_bottom.jpg) no-repeat center bottom;padding-bottom:55px;position:relative;overflow:hidden;z-index:2;}
 .content_right{width:750px;background: #222834;margin:0 auto;}
 .content_right_main{width:750px;background:url(../images/list_top_bg.jpg) center top no-repeat;min-height:324px;_height:324px;margin:0 auto; padding-top: 1px;}
 .content_wrap{width:610px;margin:0 auto;position:relative;}
